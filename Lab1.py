@@ -56,7 +56,7 @@ class DrawCirclesApp:
                 return None
             return r
 
-    # Задавание шага (уменьшения радиуса)
+    # Задание шага (уменьшения радиуса)
     def get_step(self):
         while True:
             s = simpledialog.askinteger(
