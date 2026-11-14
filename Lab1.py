@@ -17,11 +17,11 @@ class DrawCirclesApp:
 
         self.is_initialized = False
 
-        self.start_radius = self.ask_radius()
+        self.start_radius = self.get_radius()
         if self.start_radius is None:
             return
         
-        self.step = self.ask_step()
+        self.step = self.get_step()
         if self.step is None:
             return
 
